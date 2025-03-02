@@ -4,7 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/bootstrap-icons.css";
 import "./assets/css/owl.carousel.min.css";
 import "./assets/css/tooplate-moso-interior.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Bootstrap from npm
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import "owl.carousel/dist/assets/owl.carousel.css";
 import "./index.css";
 import App from "./App.jsx";
 

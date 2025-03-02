@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Moso <span className="tooplate-red">Inter</span>
           <span className="tooplate-green">ior</span>
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -22,57 +24,57 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="#">
+              <Link className="nav-link click-scroll" to="/">
                 Home
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="#">
+              <Link className="nav-link click-scroll" to="/about">
                 About
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle click-scroll"
-                href="#"
+                to="/shop"
                 id="navbarLightDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Shop
-              </a>
+              </Link>
 
               <ul
                 className="dropdown-menu dropdown-menu-light"
                 aria-labelledby="navbarLightDropdownMenuLink"
               >
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/shop/shoplisting">
                     Shop Listing
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/shop/shopdetail">
                     Shop Detail
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="#">
+              <Link className="nav-link click-scroll" to="/reviews">
                 Reviews
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="#">
+              <Link className="nav-link click-scroll" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
