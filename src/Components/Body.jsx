@@ -15,7 +15,7 @@ const Body = () => {
                     <i className="hero-icon bi-house"></i>
                   </small>
 
-                  <h1 className="hero-title text-secondary mt-2 mb-4">
+                  <h1 className="hero-title text-white mt-2 mb-4">
                     Decorate a beautiful interior for your space
                   </h1>
 
@@ -168,7 +168,7 @@ const Body = () => {
               <div className="col-lg-6 col-12">
                 <div className="shop-thumb">
                   <div className="shop-image-wrap">
-                    <a href="shop-detail.html">
+                    <a href="#">
                       <img
                         src="images/shop/minimal-bathroom-interior-design-with-wooden-furniture.jpg"
                         className="shop-image img-fluid"
@@ -190,7 +190,7 @@ const Body = () => {
 
                     <div className="shop-btn-wrap">
                       <a
-                        href="shop-detail.html"
+                        href="#"
                         className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                       >
                         Learn more
@@ -207,7 +207,7 @@ const Body = () => {
               <div className="col-lg-6 col-12">
                 <div className="shop-thumb">
                   <div className="shop-image-wrap">
-                    <a href="shop-detail.html">
+                    <a href="#">
                       <img
                         src="images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg"
                         className="shop-image img-fluid"
@@ -229,7 +229,7 @@ const Body = () => {
 
                     <div className="shop-btn-wrap">
                       <a
-                        href="shop-detail.html"
+                        href="#"
                         className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                       >
                         Learn more
@@ -246,7 +246,7 @@ const Body = () => {
               <div className="col-lg-4 col-12">
                 <div className="shop-thumb">
                   <div className="shop-image-wrap">
-                    <a href="shop-detail.html">
+                    <a href="#">
                       <img
                         src="images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg"
                         className="shop-image img-fluid"
@@ -268,7 +268,7 @@ const Body = () => {
 
                     <div className="shop-btn-wrap">
                       <a
-                        href="shop-detail.html"
+                        href="#"
                         className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                       >
                         Learn more
@@ -285,7 +285,7 @@ const Body = () => {
               <div className="col-lg-4 col-12">
                 <div className="shop-thumb">
                   <div className="shop-image-wrap">
-                    <a href="shop-detail.html">
+                    <a href="#">
                       <img
                         src="images/shop/concept-home-cooking-with-female-chef.jpg"
                         className="shop-image img-fluid"
@@ -307,7 +307,7 @@ const Body = () => {
 
                     <div className="shop-btn-wrap">
                       <a
-                        href="shop-detail.html"
+                        href="#"
                         className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                       >
                         Learn more
@@ -324,7 +324,7 @@ const Body = () => {
               <div className="col-lg-4 col-12">
                 <div className="shop-thumb">
                   <div className="shop-image-wrap">
-                    <a href="shop-detail.html">
+                    <a href="#">
                       <img
                         src="images/shop/childrens-bed-nursery-cot-velvet-childrens-room.jpg"
                         className="shop-image img-fluid"
@@ -346,7 +346,7 @@ const Body = () => {
 
                     <div className="shop-btn-wrap">
                       <a
-                        href="shop-detail.html"
+                        href="#"
                         className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                       >
                         Learn more
@@ -422,154 +422,165 @@ const Body = () => {
 
                 <h2 className="mt-2 mb-4">Reviews</h2>
 
-                <div className="owl-carousel reviews-carousel">
-                  <div className="reviews-thumb">
-                    <div className="reviews-body">
-                      <h4>
-                        Moso Interior is the most suitable website layout.
-                      </h4>
-                    </div>
+                <div className="row reviews-carousel">
+                  <div className="col-lg-4 col-md-6 col-12 mb-4">
+                    <div className="reviews-thumb">
+                      <div className="reviews-body">
+                        <h4>
+                          Moso Interior is the most suitable website layout.
+                        </h4>
+                      </div>
 
-                    <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
-                      <img
-                        src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg"
-                        className="avatar-image img-fluid"
-                        alt="pretty-blonde-woman-wearing-white-t-shirt"
-                      />
+                      <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
+                        <img
+                          src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg"
+                          className="avatar-image img-fluid"
+                          alt="pretty-blonde-woman-wearing-white-t-shirt"
+                        />
 
-                      <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
-                        <p className="text-white mb-0">
-                          <strong>Sandy</strong>, <small>CEO</small>
-                        </p>
+                        <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
+                          <p className="text-white mb-0">
+                            <strong>Sandy</strong>, <small>CEO</small>
+                          </p>
 
-                        <div className="reviews-icons">
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
+                          <div className="reviews-icons">
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="reviews-thumb">
-                    <div className="reviews-body">
-                      <h4>
-                        Explore more HTML Templates to download for your
-                        website.
-                      </h4>
-                    </div>
+                  <div className="col-lg-4 col-md-6 col-12 mb-4">
+                    <div className="reviews-thumb">
+                      <div className="reviews-body">
+                        <h4>
+                          Explore more HTML Templates to download for your
+                          website.
+                        </h4>
+                      </div>
 
-                    <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
-                      <img
-                        src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend-man-with-heavy-beard-stands-with-arms-crossed-dressed-red-t-shirt-isolated-blue.jpg"
-                        className="avatar-image img-fluid"
-                        alt=""
-                      />
+                      <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
+                        <img
+                          src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend-man-with-heavy-beard-stands-with-arms-crossed-dressed-red-t-shirt-isolated-blue.jpg"
+                          className="avatar-image img-fluid"
+                          alt=""
+                        />
 
-                      <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
-                        <p className="text-white mb-0">
-                          <strong>Jack</strong>, <small>Partner</small>
-                        </p>
+                        <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
+                          <p className="text-white mb-0">
+                            <strong>Jack</strong>, <small>Partner</small>
+                          </p>
 
-                        <div className="reviews-icons">
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star"></i>
-                          <i className="bi-star"></i>
+                          <div className="reviews-icons">
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star"></i>
+                            <i className="bi-star"></i>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="reviews-thumb">
-                    <div className="reviews-body">
-                      <h4>
-                        Please recommend Tooplate website to your friends.
-                      </h4>
-                    </div>
+                  <div className="col-lg-4 col-md-6 col-12 mb-4">
+                    <div className="reviews-thumb">
+                      <div className="reviews-body">
+                        <h4>
+                          Please recommend Tooplate website to your friends.
+                        </h4>
+                      </div>
 
-                    <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
-                      <img
-                        src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
-                        className="avatar-image img-fluid"
-                        alt=""
-                      />
+                      <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
+                        <img
+                          src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                          className="avatar-image img-fluid"
+                          alt=""
+                        />
 
-                      <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
-                        <p className="text-white mb-0">
-                          <strong>Helen</strong>, <small>Client</small>
-                        </p>
+                        <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
+                          <p className="text-white mb-0">
+                            <strong>Helen</strong>, <small>Client</small>
+                          </p>
 
-                        <div className="reviews-icons">
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
+                          <div className="reviews-icons">
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="reviews-thumb">
-                    <div className="reviews-body">
-                      <h4>
-                        This Bootstrap 5 layout is free to use for your website.
-                      </h4>
-                    </div>
+                  <div className="col-lg-4 col-md-6 col-12 mb-4">
+                    <div className="reviews-thumb">
+                      <div className="reviews-body">
+                        <h4>
+                          This Bootstrap 5 layout is free to use for your
+                          website.
+                        </h4>
+                      </div>
 
-                    <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
-                      <img
-                        src="images/avatar/portrait-young-redhead-bearded-male-wears-white-t-shirt-keeps-his-eyes-closed-smiling-feels-happy-yellow.jpg"
-                        className="avatar-image img-fluid"
-                        alt=""
-                      />
+                      <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
+                        <img
+                          src="images/avatar/portrait-young-redhead-bearded-male-wears-white-t-shirt-keeps-his-eyes-closed-smiling-feels-happy-yellow.jpg"
+                          className="avatar-image img-fluid"
+                          alt=""
+                        />
 
-                      <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
-                        <p className="text-white mb-0">
-                          <strong>Bill</strong>, <small>Designer</small>
-                        </p>
+                        <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
+                          <p className="text-white mb-0">
+                            <strong>Bill</strong>, <small>Designer</small>
+                          </p>
 
-                        <div className="reviews-icons">
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star"></i>
-                          <i className="bi-star"></i>
+                          <div className="reviews-icons">
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star"></i>
+                            <i className="bi-star"></i>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="reviews-thumb">
-                    <div className="reviews-body">
-                      <h4>
-                        Thank you for visiting Tooplate to download free
-                        templates.
-                      </h4>
-                    </div>
+                  <div className="col-lg-4 col-md-6 col-12 mb-4">
+                    <div className="reviews-thumb">
+                      <div className="reviews-body">
+                        <h4>
+                          Thank you for visiting Tooplate to download free
+                          templates.
+                        </h4>
+                      </div>
 
-                    <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
-                      <img
-                        src="images/avatar/portrait-young-beautiful-woman-gesticulating.jpg"
-                        className="avatar-image img-fluid"
-                        alt=""
-                      />
+                      <div className="reviews-bottom reviews-bottom-up d-flex align-items-center">
+                        <img
+                          src="images/avatar/portrait-young-beautiful-woman-gesticulating.jpg"
+                          className="avatar-image img-fluid"
+                          alt=""
+                        />
 
-                      <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
-                        <p className="text-white mb-0">
-                          <strong>Susan</strong>, <small>Boss</small>
-                        </p>
+                        <div className="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
+                          <p className="text-white mb-0">
+                            <strong>Susan</strong>, <small>Boss</small>
+                          </p>
 
-                        <div className="reviews-icons">
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
-                          <i className="bi-star-fill"></i>
+                          <div className="reviews-icons">
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                            <i className="bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -707,15 +718,15 @@ const Body = () => {
                     </p>
                   </div>
 
-                  {/* <iframe
+                  <iframe
                     className="google-map mt-2"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4800.184803804974!2d-0.10174304922518053!3d51.5087879746898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605f6fc62fa3d%3A0xc5a39e7cf4e3a9a4!2sTate%20Modern%20Garden!5e1!3m2!1sen!2smm!4v1679331839559!5m2!1sen!2smm"
                     width="100%"
                     height="220"
-                    style="border:0;"
+                    style={{ border: 0 }}
                     allowfullscreen=""
                     loading="lazy"
-                  ></iframe> */}
+                  ></iframe>
                 </div>
               </div>
             </div>

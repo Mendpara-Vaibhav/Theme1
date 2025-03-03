@@ -15,8 +15,8 @@ const Footer = () => {
             </p>
 
             <p className="text-white">
-              <a href="https://www.tooplate.com" target="_parent">
-                Web Design: Tooplate
+              <a href="#" target="_parent">
+                Web Design: React
               </a>
             </p>
           </div>
@@ -26,7 +26,7 @@ const Footer = () => {
 
             <p className="text-white mt-2">
               <i className="bi-geo-alt"></i>
-              Berlin, Germany
+              Gujarat, India
             </p>
           </div>
 

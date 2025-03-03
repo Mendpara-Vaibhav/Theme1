@@ -513,6 +513,15 @@ strong {
   min-height: 580px;
 }
 
+.hero-slide {
+  /* background-image: url("../images/slideshow/white-wall-living-room-have-sofa-decoration-3d-rendering.jpg"); */
+  /* background-image: url("../images/slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg"); */
+  background-image: url("../images/slideshow/wood-sideboard-living-room-interior-with-copy-space.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 991px) {
   .hero-section {
     height: calc(100vh - 70px);

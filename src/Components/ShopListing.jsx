@@ -230,9 +230,9 @@ const ShopListing = () => {
                 <div className="col-lg-6 col-12">
                   <div className="shop-thumb">
                     <div className="shop-image-wrap">
-                      <a href="shop-detail.html">
+                      <a href="#">
                         <img
-                          src="images/shop/minimal-bathroom-interior-design-with-wooden-furniture.jpg"
+                          src="/images/shop/minimal-bathroom-interior-design-with-wooden-furniture.jpg"
                           className="shop-image img-fluid"
                           alt=""
                         />
@@ -252,7 +252,7 @@ const ShopListing = () => {
 
                       <div className="shop-btn-wrap">
                         <a
-                          href="shop-detail.html"
+                          href="#"
                           className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                         >
                           Learn more
@@ -269,9 +269,9 @@ const ShopListing = () => {
                 <div className="col-lg-6 col-12">
                   <div className="shop-thumb">
                     <div className="shop-image-wrap">
-                      <a href="shop-detail.html">
+                      <a href="#">
                         <img
-                          src="images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg"
+                          src="/images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg"
                           className="shop-image img-fluid"
                           alt=""
                         />
@@ -291,7 +291,7 @@ const ShopListing = () => {
 
                       <div className="shop-btn-wrap">
                         <a
-                          href="shop-detail.html"
+                          href="#"
                           className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                         >
                           Learn more
@@ -310,7 +310,7 @@ const ShopListing = () => {
                     <div className="shop-image-wrap">
                       <a href="shop-detail.html">
                         <img
-                          src="images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg"
+                          src="/images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg"
                           className="shop-image img-fluid"
                           alt=""
                         />
@@ -330,7 +330,7 @@ const ShopListing = () => {
 
                       <div className="shop-btn-wrap">
                         <a
-                          href="shop-detail.html"
+                          href="#"
                           className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                         >
                           Learn more
@@ -347,9 +347,9 @@ const ShopListing = () => {
                 <div className="col-lg-6 col-12">
                   <div className="shop-thumb">
                     <div className="shop-image-wrap">
-                      <a href="shop-detail.html">
+                      <a href="#">
                         <img
-                          src="images/shop/concept-home-cooking-with-female-chef.jpg"
+                          src="/images/shop/concept-home-cooking-with-female-chef.jpg"
                           className="shop-image img-fluid"
                           alt=""
                         />
@@ -369,7 +369,7 @@ const ShopListing = () => {
 
                       <div className="shop-btn-wrap">
                         <a
-                          href="shop-detail.html"
+                          href="#"
                           className="shop-btn custom-btn btn d-flex align-items-center align-items-center"
                         >
                           Learn more
