@@ -1,0 +1,17 @@
+.error-section {
+  width: 100%;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  color: var(--buttonColor);
+
+  & p,
+  h1 {
+    color: var(--buttonColor);
+    margin-bottom: 1.6rem;
+  }
+}

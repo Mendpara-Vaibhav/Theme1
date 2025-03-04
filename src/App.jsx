@@ -9,12 +9,14 @@ import Body from "./Components/Body";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./Components/AppLayout";
+import ErrorPage from "./Components/ErrorPage";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <AppLayout />,
+      errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
