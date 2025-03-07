@@ -58,8 +58,9 @@ const ApiData = () => {
               <tr key={index}>
                 <td> {element.userId} </td>
                 <td>
-                  <NavLink to="/contact/details/:id">{element.id}</NavLink>
-                  {/* {element.id} */}
+                  <NavLink to={"/contact/details/" + element.id}>
+                    {element.id}
+                  </NavLink>
                 </td>
                 <td> {element.title} </td>
                 <td> {element.completed ? "TRUE" : "FALSE"} </td>

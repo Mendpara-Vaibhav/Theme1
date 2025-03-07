@@ -10,6 +10,8 @@ import Body from "./Components/Body";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./Components/AppLayout";
 import ErrorPage from "./Components/ErrorPage";
+import Details from "./Components/Details";
+import Login from "./Components/Login";
 
 function App() {
   const router = createBrowserRouter([
@@ -20,7 +22,12 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Body />,
+          element: (
+            <>
+              <Login />
+              <Body />
+            </>
+          ),
         },
         {
           path: "about",
@@ -45,6 +52,10 @@ function App() {
         {
           path: "contact",
           element: <Contact />,
+        },
+        {
+          path: "contact/details/:id",
+          element: <Details />,
         },
       ],
     },
