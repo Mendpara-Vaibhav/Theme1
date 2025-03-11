@@ -60,6 +60,10 @@ const Details = () => {
     return <ErrorPage />;
   }
 
+  if (!idData) {
+    return <h1>Loading...</h1>;
+  }
+
   return (
     <>
       <section className="error-section">

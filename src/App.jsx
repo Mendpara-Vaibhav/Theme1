@@ -7,27 +7,53 @@ import ShopDetail from "./Components/ShopDetail";
 import ShopListing from "./Components/ShopListing";
 import Body from "./Components/Body";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import AppLayout from "./Components/AppLayout";
 import ErrorPage from "./Components/ErrorPage";
 import Details from "./Components/Details";
 import Login from "./Components/Login";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loggedInStatus = localStorage.getItem("isLoggedIn") === "true";
+    console.log("Login status:", loggedInStatus);
+    setIsLoggedIn(loggedInStatus);
+    setLoading(false);
+  }, []);
+
+  const handleLogin = (status) => {
+    setIsLoggedIn(status);
+    localStorage.setItem("isLoggedIn", status);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    localStorage.removeItem("isLoggedIn");
+  };
+
+  if (loading) return <h1>Loading...</h1>;
+
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <AppLayout />,
+      element: isLoggedIn ? (
+        <AppLayout onLogout={handleLogout} />
+      ) : (
+        <Navigate to="/login" />
+      ),
       errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
-          element: (
-            <>
-              <Login />
-              <Body />
-            </>
-          ),
+          element: <Body />,
         },
         {
           path: "about",
@@ -59,7 +85,16 @@ function App() {
         },
       ],
     },
+    {
+      path: "/login",
+      element: isLoggedIn ? (
+        <Navigate to="/" />
+      ) : (
+        <Login onLogin={handleLogin} />
+      ),
+    },
   ]);
+
   return <RouterProvider router={router} />;
 }
 

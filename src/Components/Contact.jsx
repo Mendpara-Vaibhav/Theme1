@@ -40,6 +40,7 @@ const Contact = () => {
                         id="first-name"
                         className="form-control"
                         placeholder="Jack"
+                        autoComplete="off"
                         required
                       />
                     </div>
@@ -55,6 +56,7 @@ const Contact = () => {
                         id="last-name"
                         className="form-control"
                         placeholder="Doe"
+                        autoComplete="on"
                         required
                       />
                     </div>
@@ -71,6 +73,7 @@ const Contact = () => {
                     pattern="[^ @]*@[^ @]*"
                     className="form-control"
                     placeholder="Jackdoe@gmail.com"
+                    autoComplete="off"
                     required
                   />
                 </div>
@@ -101,7 +104,7 @@ const Contact = () => {
 
                 <p className="text-white mb-2">
                   <i className="contact-icon bi-geo-alt me-1"></i>
-                  102 Utah Road, Berlin, Germany
+                  Ahmedabad, Gujarat, India
                 </p>
 
                 <h3 className="text-white mt-3 mb-2">Contact Info</h3>

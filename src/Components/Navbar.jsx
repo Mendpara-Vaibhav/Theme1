@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ onLogout }) => {
   return (
     <nav className="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
       <div className="container">
@@ -76,6 +77,10 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
+
+            <button className="btn btn-danger rounded-5" onClick={onLogout}>
+              Logout
+            </button>
           </ul>
         </div>
       </div>
